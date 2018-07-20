@@ -1,0 +1,43 @@
+
+.chat-container 
+    background-color: $greyblue
+    width: 100%
+    height: 100%
+    font-size: 13px
+    color: $lightgrey
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+
+.chat__users
+    flex: 1
+    margin: 20px
+
+.chat__users__title
+    margin-bottom: 15px
+
+.chat__main
+    flex: 0 0 75%
+    background-color: $darkgrey
+    height: 100%
+    display: flex
+    flex-flow: column nowrap
+    
+.chat__messages 
+    flex: 1
+    background-color: $darkgrey
+    height: 100%
+    overflow-y: auto
+
+.chat__textarea
+    text-align: center
+
+.chat__textarea textarea
+    resize: none
+    width: calc(100% - 26px)
+    height: 40px
+    padding: 10px
+    border: 0
+    border-top: 1px solid $detail
+    outline: none
+    background-color: #d1d1d1

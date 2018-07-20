@@ -1,0 +1,67 @@
+// Reset
+html,
+body,
+ul,
+ol
+  margin:  0
+  padding: 0
+
+// Colors
+$darkgrey: #273238
+$greyblue: #7b94a0
+$red: #ef4658
+$lightgrey: #f2f2f2
+$detail: #38464e
+     
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700')
+$montserrat: Montserrat, sans-serif
+
+* 
+  font-family: $montserrat
+  font-weight: 400
+
+html,
+body 
+  height: 100%
+
+body
+  background-color: $darkgrey
+  display: flex
+  justify-content: center
+  align-items: center
+  align-content: center
+  color: $lightgrey
+
+
+div#root
+  width: 100%
+  height: 100%
+
+// Useful classes
+.font10
+  font-size: 10px
+  font-weight: 300
+
+.font12
+  font-size: 12px
+  font-weight: 300
+
+.font14
+  font-size: 14px
+  font-weight: 600
+
+.font16
+  font-size: 16px
+  font-weight: 600
+
+.font18
+  font-size: 18px
+  font-weight: 700
+
+// Components
+@import './components/_chat.sass'
+@import './components/_message.sass'
+@import './components/_userlabel.sass'
+@import './components/_notification.sass'
+@import './components/_popup.sass'
